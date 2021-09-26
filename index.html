@@ -8,12 +8,18 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Staatliches">
 </head>
 <body>
+	<div id="popup-box">
+		<div id="popup-inner">
+			<img id="popup-img">
+			<span class="close">close</span>
+		</div>
+	</div>
 	<header>
 		<div id="header-wrap">
 			<div class="header-logo"><p class="logo-p">JeaRuu</p></div>
 			<div class="header-right">
 				<ul class="header-menu">
-					<li class="header-item">activitise</li>
+					<li class="header-item">activities</li>
 					<li class="header-item">contanct</li>
 				</ul>
 			</div>
@@ -21,44 +27,91 @@
 		</div>
 	</header>
 	<div id="top-wrap">
-		<h1 class="top-wrap-h1">熊野町でも！！</h1>
+		<h1 class="top-wrap-h1">Photography taken by a hoesome bitch</h1>
 	</div>
 	<div id="gallary-wrap">
 		<div id="gallary-inner">
-			<div class="gallary-column">
+			<div id="gallary-column-1" class="gallary-column">
 				<div class="column-image-wrap">
-					<img src="images/pexels-helena-lopes-1862000.jpg">
+					<img class="img-each">
+					<span class="gallary-overlay"></span>
 				</div>
 				<div class="column-image-wrap">
-					<img src="images/pexels-aleksandar-pasaric-3372408.jpg">
+					<img src="">
+					<span class="gallary-overlay"></span>
+				</div>
+				<div class="column-image-wrap">
+					<img src="">
+					<span class="gallary-overlay"></span>
+				</div>
+				<div class="column-image-wrap">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 			</div>
-			<div class="gallary-column">
+			<div id="gallary-column-2" class="gallary-column">
 				<div class="column-image-wrap">
-					<img src="images/pexels-kevin-villaruz-1660603.jpg">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 				<div class="column-image-wrap">
-					<img src="images/pexels-umar-mukhtar-1538177.jpg">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 				<div class="column-image-wrap">
-					<img src="images/pexels-timo-volz-1717862.jpg">
+					<img>
+					<span class="gallary-overlay"></span>
+				</div>
+				<div class="column-image-wrap">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 			</div>
-			<div class="gallary-column">
-				<div class="column-image-wrap">
-					<img src="images/pexels-aleksandar-pasaric-3372408.jpg">
+			<div id="gallary-column-3" class="gallary-column">
+				<div class="column-image-wrap gallary-column-1">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 				<div class="column-image-wrap">
-					<img src="images/pexels-helena-lopes-1862000.jpg">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 				<div class="column-image-wrap">
-					<img src="images/pexels-kevin-villaruz-1660603.jpg">
+					<img>
+					<span class="gallary-overlay"></span>
+				</div>
+				<div class="column-image-wrap">
+					<img>
+					<span class="gallary-overlay"></span>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="info-wrap">
-
+	<div id="info-wrap" class="hidden">
+		<div id="innfo-inner">
+			<div class="info-left">
+				<div class="info-left-inner">
+					<p class="info-title">Do you need photos?</p>
+					<p class="info-conntent">I currently work for you to take photos. </p>
+					<a class="button" href="#">contact</a>
+				</div>
+			</div>
+			<div class="info-right">
+				<img class="info-image" src="images/pexels-kevin-villaruz-1660603.jpg">
+			</div>
+		</div>
 	</div>
+	<footer>
+		<div id="footer-wrap">
+			<p class="footer-logo">JeaRuu</p>
+			<div class="footer-line"></div>
+			<ul class="footer-menu">
+				<li class="footer-menu-item"><a href="#">activities</a></li>
+				<li class="footer-menu-item"><a href="#">contanct</a></li>
+			</ul>
+		</div>
+	</footer>
+	<script rel="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
