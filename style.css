@@ -1,6 +1,3 @@
-html{
-	
-}
 body{
 	margin: 0;
 	width: 100%;
@@ -25,6 +22,10 @@ header{
     font-size: 30px;
     font-weight: 900;
     font-family: Spartan;
+}
+.logo-p a{
+    text-decoration: none;
+    color: #000;
 }
 .header-right {
     display: flex;
@@ -245,6 +246,10 @@ footer{
     font-size: 30px;
     color: #fff;
 }
+.footer-logo a{
+	text-decoration: none;
+	color: #fff;
+}
 .footer-line{
 	width: 30px;
 	height: 2px;
@@ -314,6 +319,7 @@ footer{
 	.button {
     	padding: 20px 40px;
 	}
+}
 @media only screen and (max-width: 767px){
 	.top-wrap-h1 {
 	    width: 86%;
@@ -322,7 +328,7 @@ footer{
 	#gallary-column-3{
 		display: none;
 	}
-	.gallary-column {
+	#gallary-column-1, #gallary-column-2 {
     	width: 50%;
 	}
 	#info-wrap {
@@ -337,7 +343,7 @@ footer{
 	    text-align: center;
 	}
 	.info-left-inner {
-    	margin: 0 0 20px;
+    	margin: 0 auto 20px;
 	}
 	.info-right {
     	width: 100%;

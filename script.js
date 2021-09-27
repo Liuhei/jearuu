@@ -83,7 +83,7 @@ window.onload = function(){
 	}
 	//change layout when the screen size changes
 	window.onresize = function(){
-		const screen_width = window.screen.width;
+		const screen_width = screen.width;
 		if (screen_width < 768 ){
 			c3.style.display = "none"
 		} else {
